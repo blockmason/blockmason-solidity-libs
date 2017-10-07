@@ -1,7 +1,7 @@
 pragma solidity ^0.4.15;
 
 library Helpers {
-  function compare(bytes32 a, bytes32 b) private constant returns (int) {
+  function compare(bytes32 a, bytes32 b) public constant returns (int) {
     //    bytes memory a = bytes(_a);
     //    bytes memory b = bytes(_b);
     uint minLength = a.length;
